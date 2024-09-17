@@ -36,3 +36,22 @@ Les fonctions vous permettent de regrouper des blocs de code que vous pouvez ré
 §call[afficherTexte, "Bonjour!"]
 ```
 Dans cet exemple, une fonction appelée afficherTexte est définie pour afficher un message passé en argument. La fonction est ensuite appelée avec le message "Bonjour!".
+
+
+## 2. Boucles (loop)
+Les boucles permettent d'exécuter un bloc de code plusieurs fois.
+
+### Syntaxe d'une boucle
+**Syntaxe :**
+```elios
+§for[nombre] {
+    // instructions
+}
+```
+**Exemple :**
+```§for[3] {
+    §log[Itération !!index!!]
+}
+```
+
+Cet exemple exécute le bloc de code 3 fois, affichant "Itération 0", "Itération 1", et "Itération 2" pour chaque itération.
