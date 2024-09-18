@@ -57,7 +57,7 @@ Les boucles permettent d'exécuter un bloc de code plusieurs fois.
 Cet exemple exécute le bloc de code 3 fois, affichant "Itération 0", "Itération 1", et "Itération 2" pour chaque itération.
 
 
-## 3. Conditions (if/else)
+## 3. ~~Conditions (if/else)~~
 Les conditions permettent d'exécuter du code en fonction de la véracité d'une condition.
 
 ### Syntaxe des conditions
