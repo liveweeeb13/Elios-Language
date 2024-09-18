@@ -44,40 +44,40 @@ Les boucles permettent d'exécuter un bloc de code plusieurs fois.
 ### Syntaxe d'une boucle
 **Syntaxe :**
 ```elios
-§for[nombre] {
+§for[nombre] 
     // instructions
-}
+§end
 ```
 **Exemple :**
-```§for[3] {
-    §log[Itération !!index!!]
-}
+```§for[3] 
+§log[Itération index]
+§end
 ```
 
 Cet exemple exécute le bloc de code 3 fois, affichant "Itération 0", "Itération 1", et "Itération 2" pour chaque itération.
 
 
-## 3. ~~Conditions (if/else)~~
+## 3. Conditions (if/else)
 Les conditions permettent d'exécuter du code en fonction de la véracité d'une condition.
 
 ### Syntaxe des conditions
 **Syntaxe :**
 ```elios
-§if[condition] {
+§if[condition] 
     // code si la condition est vraie
-} §else {
+§else 
     // code si la condition est fausse
-}
+§end
 ```
 **Exemple :**
 ```elios
 §set[age, 25]
 
-§if[!!age!! > 18] {
-    §log[Vous êtes majeur.]
-} §else {
-    §log[Vous êtes mineur.]
-}
+§if[!!age!! > 18] 
+§log[Vous êtes majeur.]
+§else 
+§log[Vous êtes mineur.]
+§end
 ```
 Ici, si la variable `age` est supérieure à 18, le message "Vous êtes majeur." est affiché. Sinon, le message "Vous êtes mineur." est affiché.
 
