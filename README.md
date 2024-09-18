@@ -16,7 +16,7 @@ Elios est un mini-langage de programmation conçu pour écrire des scripts de ma
 
 Les fonctions vous permettent de regrouper des blocs de code que vous pouvez réutiliser à plusieurs endroits dans vos scripts.
 
-### Déclaration d'une fonction
+### PAS ENCORE Déclaration d'une fonction
 
 **Syntaxe :**
 ```elios
@@ -38,7 +38,7 @@ Les fonctions vous permettent de regrouper des blocs de code que vous pouvez ré
 Dans cet exemple, une fonction appelée ``afficherTexte`` est définie pour afficher un message passé en argument. La fonction est ensuite appelée avec le message "Bonjour!".
 
 
-## 2. Boucles (loop)
+## 2. : Boucles (loop)
 Les boucles permettent d'exécuter un bloc de code plusieurs fois.
 
 ### Syntaxe d'une boucle
@@ -57,7 +57,7 @@ Les boucles permettent d'exécuter un bloc de code plusieurs fois.
 Cet exemple exécute le bloc de code 3 fois, affichant "Itération 0", "Itération 1", et "Itération 2" pour chaque itération.
 
 
-## 3. Conditions (if/else)
+## 3. : Conditions (if/else)
 Les conditions permettent d'exécuter du code en fonction de la véracité d'une condition.
 
 ### Syntaxe des conditions
@@ -82,7 +82,7 @@ Les conditions permettent d'exécuter du code en fonction de la véracité d'une
 Ici, si la variable `age` est supérieure à 18, le message "Vous êtes majeur." est affiché. Sinon, le message "Vous êtes mineur." est affiché.
 
 
-## 4. Commentaires
+## PAS ENCORE 4. Commentaires
 Les commentaires permettent d'ajouter des notes dans votre code sans qu'ils soient exécutés.
 ## Syntaxe des commentaires
 **Syntaxe :**
@@ -97,7 +97,7 @@ Les commentaires permettent d'ajouter des notes dans votre code sans qu'ils soie
 Dans cet exemple, le commentaire est ignoré, et seul le message "Bienvenue!" est affiché.
 
 
-## 5. Gestion des erreurs
+## PAS ENCORE 5. Gestion des erreurs
 La gestion des erreurs permet de capturer et de traiter les erreurs éventuelles.
 ## Syntaxe de gestion des erreurs
 **Syntaxe :**
