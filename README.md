@@ -28,10 +28,9 @@ Les fonctions vous permettent de regrouper des blocs de code que vous pouvez ré
 
 **Exemple :**
 ```elios
-§function[afficherTexte] {
-    !!message!!
-    §log[!!message!!]
-}
+§function[afficherTexte] 
+§log[Message depuis la finction]
+
 
 §call[afficherTexte, "Bonjour!"]
 ```
